@@ -1,4 +1,4 @@
-let webApp = window.Telegram.app
+let webApp = window.Telegram.WebApp
 let but = document.getElementById('button_reg')
 but.onclick = function(){
     but.click();
