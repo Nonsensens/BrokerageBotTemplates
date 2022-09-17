@@ -4,9 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     webApp.MainButton.setParams({
         'text': 'Регистрация',
         'color': '#F4D03F',
-        'textColor': "black",
+        'textColor': "#region",
     });
-
     Telegram.WebApp.onEvent('mainButtonClicked', () =>{
         let username = document.getElementById('username').value;
         let password = document.getElementById('password').value;
