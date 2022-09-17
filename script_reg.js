@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'color': '#F4D03F   ',
     });
     webApp.MainButton.onClick(() =>{
-        webApp.close()
-    })
+        webApp.close();
+    });
 }
 );
