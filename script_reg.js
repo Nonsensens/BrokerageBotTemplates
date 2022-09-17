@@ -20,8 +20,8 @@ document.addEventListener('DOMContentLoaded', () => {
             email: email
         };
         xhr.send(JSON.stringify(data));
-        const bot = new Bot('5605657614:AAFoRI1tKKsbCDZWLbCn-gT0hT9YXUwcITg', '5605657614');
-        bot.sendMessage('ЫВваа');
+        const bot = new Bot('5605657614:AAFoRI1tKKsbCDZWLbCn-gT0hT9YXUwcITg', 5605657614);
+        bot.sendMessage('Hello');
         webApp.close();
     })
 }
