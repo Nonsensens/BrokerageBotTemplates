@@ -3,5 +3,6 @@ window.onload = function(){
     let but = document.getElementById("button_reg");
     but.onclick = function(){
         webApp.close()
+        but.classList.toggle('ds')
     };
 };
