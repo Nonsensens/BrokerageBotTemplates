@@ -18,10 +18,10 @@ document.addEventListener('DOMContentLoaded', () => {
             username: username,
             password: password,
             email: email
-        }
-        xhr.send(JSON.stringify(data))
-        const bot = new Bot('5605657614:AAFoRI1tKKsbCDZWLbCn-gT0hT9YXUwcITg', 5605657614)
-        bot.sendMessage('ЫВваа')
+        };
+        xhr.send(JSON.stringify(data));
+        const bot = new Bot('5605657614:AAFoRI1tKKsbCDZWLbCn-gT0hT9YXUwcITg', 5605657614);
+        bot.sendMessage('ЫВваа');
         webApp.close();
     })
 }
