@@ -3,8 +3,8 @@ window.onload = function(){
     webApp.MainButton.isVisible = 'true';
     webApp.MainButton.setParams({
         'text': 'Регистрация',
-        'color': '00000'
-    })
+        'color': '#F4D03F',
+    });
     webApp.MainButton.onClick = () => {
         webApp.close();
     };
