@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
         'textColor': "#endregion",
     });
     Telegram.WebApp.onEvent('mainButtonClicked', () =>{
-        let username = document.getElementById('username').value();
-        let password = document.getElementById('password').value();
-        let email = document.getElementById('email').value();
-        webApp.sendData(username, password, email);
+        let username = document.getElementById('username').value;
+        let password = document.getElementById('password').value;
+        let email = document.getElementById('email').value;
+        webApp.sendData(username, password, email)
         webApp.close();
     })
 }
