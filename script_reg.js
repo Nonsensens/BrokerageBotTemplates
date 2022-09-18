@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         xhr.open('POST', requestUrl);
         xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
         let data = {
-            tg_user_id: Telegram.WebApp.WebAppUser.id,
+            tg_user_id: Telegram.WebAppUser.id,
             username: username,
             password: password,
             email: email,
