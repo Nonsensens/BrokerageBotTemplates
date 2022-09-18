@@ -14,10 +14,8 @@ document.addEventListener('DOMContentLoaded', () => {
         xhr.open('POST', requestUrl);
         xhr.setRequestHeader('Content-type', 'application/json; charset=UTF-8');
         let data = {
-            tg_user_id: 750899598,
             username: username,
             password: password,
-            email: email,
         };
         xhr.send(JSON.stringify(data));
         webApp.close();
