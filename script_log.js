@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let webApp = window.Telegram.WebApp;
     webApp.MainButton.isVisible = 'true';
     webApp.MainButton.setParams({
-        'text': 'Регистрация',
+        'text': 'Войти',
         'color': '#F4D03F',
         'textColor': '#region',
     });
